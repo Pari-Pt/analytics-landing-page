@@ -7,7 +7,7 @@ body {
     width: 1600px;
 }
 
-.main-background {
+.first-background {
     height: 798px;
     width: 1600px;
     background-color: var(--primary-color);
@@ -16,6 +16,8 @@ body {
 .background-logo {
     position: absolute;
     z-index: 1;
+    width: 660px;
+    height: 660px;
 
 }
 
@@ -60,7 +62,7 @@ body {
 .sign-up-btn {
     border: 1px solid var(--secondary-color);
     padding: 10px 40px;
-    border-radius: 20px;
+    border-radius: 25px;
     margin-right: 170px;
 }
 li {
