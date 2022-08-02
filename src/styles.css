@@ -1,6 +1,50 @@
+:root {
+    --primary-color: #172755;
+    --secondary-color: #8794BA;
+}
+
+body {
+    width: 1600px;
+}
+
 .main-background {
     height: 798px;
     width: 1600px;
-    background-color: #172755;
+    background-color: var(--primary-color);
     margin-top:-0px;
+}
+
+
+.company-logo {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 210px;
+}
+
+.company-name {
+    position: absolute;
+    margin-top: 62.01px;
+    margin-left: 262.63px;
+}
+
+.menu-item {
+    text-decoration: none;
+}
+
+.menu {
+    position: absolute;
+    margin-left: 476px;
+    margin-top: 60px;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+
+}
+
+.menu-item {
+    margin-right: 36px;
+    color: var(--secondary-color);
+
 }
