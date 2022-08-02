@@ -11,24 +11,25 @@ body {
     height: 798px;
     width: 1600px;
     background-color: var(--primary-color);
-    margin-top:-0px;
 }
 
+.background-logo {
+    position: absolute;
+    z-index: 1;
+
+}
 
 .company-logo {
     position: absolute;
     margin-top: 50px;
     margin-left: 210px;
+    margin-right: 1350px;
 }
 
 .company-name {
     position: absolute;
     margin-top: 62.01px;
     margin-left: 262.63px;
-}
-
-.menu-item {
-    text-decoration: none;
 }
 
 .menu {
@@ -38,13 +39,32 @@ body {
     list-style-type: none;
 }
 
-li {
-    display: inline;
-
+.menu-item, .user-item{
+    text-decoration: none;
+    color: var(--secondary-color);
 }
 
 .menu-item {
     margin-right: 36px;
-    color: var(--secondary-color);
-
 }
+
+.last-of-menu {
+    margin-right: 100px;
+}
+
+.sign-in {
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+.sign-up-btn {
+    border: 1px solid var(--secondary-color);
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin-right: 170px;
+}
+li {
+    display: inline;
+    line-height: 19px;
+}
+
