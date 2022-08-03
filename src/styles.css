@@ -5,35 +5,45 @@
 }
 
 body {
-    width: 1600px;
+    width: 100%;
+    height: 100%;
+    min-width: 40%;
+    margin: 0 auto;
+    padding: 0;
     overflow-x: hidden;
 }
 
 .background-top {
     position: absolute;
-    height: 798px;
-    width: 1600px;
+    height: 100%;
+    width: 100%;
     z-index: 0;
 }
 
+.nav-menu {
+    position: relative;
+    padding-top: 50px;
+}
+
 .company-logo {
-    position: absolute;
-    margin-top: 50px;
+    position: relative;
+    z-index: 1;
     margin-left: 210px;
-    margin-right: 1350px;
 }
 
 .company-name {
-    position: absolute;
-    margin-top: 62.01px;
-    margin-left: 262.63px;
+    position: relative;
+    z-index: 1;
+    margin-left: 12px;
 }
 
+
 .menu {
-    position: absolute;
-    margin-left: 476px;
-    margin-top: 60px;
+    position: relative;
+    display: inline;
     list-style-type: none;
+    z-index: 1;
+    margin-left: 100px;
 }
 
 .menu-item, .user-item{
@@ -70,8 +80,8 @@ li:hover {
 }
 
 h1 {
-    position: absolute;
-    margin-top: 242px;
+    position: relative;
+    margin-top: 163px;
     margin-left: 210px;
     color: #FFFFFF;
     width: 552px;
@@ -81,18 +91,8 @@ h1 {
     font-size: 50px;
 }
 
-h2 {
-    position: absolute;
-    margin-top: 853px;
-    margin-left: 490px;
-    width: 620px;
-    font-size: 40px;
-    line-height: 47px;
-    
-}
-
 p {
-    position: absolute;
+    position: relative;
     color: var(--secondary-color);
     font-size: 18px;
     line-height: 27px;
@@ -100,12 +100,11 @@ p {
 
 #intro-para {
     margin-left: 210px;
-    margin-top: 377px;
     width: 550px;
 } 
 
 #try-free-btn {
-    position: absolute;
+    position: relative;
     color: white;
     background-color: #EF2A82;
     border-radius: 68px;
@@ -114,15 +113,32 @@ p {
     font-size: 16px;
     z-index: 1;
     margin-left: 210px;
-    margin-top: 520px;
     border: none;
 }
 
-#main-feat-para {
+.main-feat-container {
+    margin-top: 280px;
+}
+
+h2 {
+    position: relative;
+    margin: 300px auto 30px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 47px;
     
-    position: absolute;
-    margin-top: 936px;
+}
+
+#main-feat-para {
+    position: relative;
+    margin: 0 auto;
     text-align: center;
     width: 1060px;
     height: 53px;
+}
+
+#feat-grid {
+    margin: 80px auto;
+    text-align: center;
+
 }
