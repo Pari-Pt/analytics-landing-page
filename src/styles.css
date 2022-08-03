@@ -1,7 +1,7 @@
 :root {
     --primary-color: #172755;
     --secondary-color: #8794BA;
-    --font-family: "Roboto, sans-serif;"
+    --font-family: 'Roboto, sans-serif;'
 }
 
 body {
@@ -126,6 +126,7 @@ h2 {
     text-align: center;
     font-size: 40px;
     line-height: 47px;
+    font-weight: 700;
     
 }
 
@@ -140,5 +141,23 @@ h2 {
 #feat-grid {
     margin: 80px auto;
     text-align: center;
+}
 
+
+.feature-name {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.feat-icon {
+    margin-bottom: 26px;
+}
+
+.feat-para {
+    height: 44px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
