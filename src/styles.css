@@ -190,13 +190,16 @@ p {
     align-items: center;
     max-width: 1400px;
     margin: 0 auto;
+    gap:30px;
     border-bottom: 1px solid #2A407C;
 }
 
 .pricing-plans .plan {
         position: relative;
-        margin-top: 300px;
         border-radius: 10px;
+        background-color: none;
+        width: 340px;
+        padding: 20px;
       }
       
 
@@ -217,4 +220,7 @@ a:hover {
     padding: 20px 20px;
     background-image: url(/images/background-bottom.png);
     background-repeat: no-repeat;
+    padding-top: 300px;
+
 }
+
